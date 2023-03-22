@@ -17,15 +17,18 @@ public class Area {
             int l = Integer.parseInt(scanner.next());
             System.out.println("Digite el ancho");
             int a = Integer.parseInt(scanner.next());
-
         }
+
         if(selec==2){
             System.out.println("Digite la longitud");
             int l = Integer.parseInt(scanner.next());
             System.out.println("Digite el ancho");
             int a = Integer.parseInt(scanner.next());
-
+            Rectangulo rectangulo = new Rectangulo(l,a);
+            int resultado = rectangulo.calcular();
+            System.out.println("El resultado del area del triangulo es "+ resultado);
         }
+
         if(selec==3){
             System.out.println("Digite la base");
             int b = Integer.parseInt(scanner.next());
