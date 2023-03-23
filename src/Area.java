@@ -18,6 +18,8 @@ public class Area {
             System.out.println("Digite el ancho");
             int a = Integer.parseInt(scanner.next());
 
+
+
         }
         if(selec==2){
             System.out.println("Digite la longitud");
@@ -31,6 +33,8 @@ public class Area {
             int b = Integer.parseInt(scanner.next());
             System.out.println("Digite el altura");
             int h = Integer.parseInt(scanner.next());
+            Triangulo objeto= new Triangulo();
+            objeto.calcularTriangulo(b,h);
 
         }
 
