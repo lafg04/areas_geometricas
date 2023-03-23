@@ -6,8 +6,8 @@ public class Area {
         Scanner scanner= new Scanner(System.in);
 
         System.out.println("Bienvenido, por favor seleccione la figura a calcular el area");
-        System.out.println("1 - Rectangulo");
-        System.out.println("2 - Cuadrado");
+        System.out.println("1 - Cuadrado");
+        System.out.println("2 - Rectangulo");
         System.out.println("3 - Triangulo");
 
         int selec = Integer.parseInt(scanner.next());
@@ -17,6 +17,8 @@ public class Area {
             int l = Integer.parseInt(scanner.next());
             System.out.println("Digite el ancho");
             int a = Integer.parseInt(scanner.next());
+            Cuadrado c = new Cuadrado();
+            System.out.println("El resultado del área del cuadrado es: " + c.areaCuadrado(l, a));
         }
 
         if(selec==2){
