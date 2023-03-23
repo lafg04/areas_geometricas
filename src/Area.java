@@ -35,7 +35,8 @@ public class Area {
             int b = Integer.parseInt(scanner.next());
             System.out.println("Digite el altura");
             int h = Integer.parseInt(scanner.next());
-
+            Triangulo triangulo = new Triangulo(b,h);
+            System.out.println("El resultado del area del triangulo es "+ triangulo.calcular());
         }
 
     }
