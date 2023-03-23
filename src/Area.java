@@ -25,7 +25,7 @@ public class Area {
             System.out.println("Digite el ancho");
             int a = Integer.parseInt(scanner.next());
             Rectangulo rectangulo = new Rectangulo(l,a);
-            System.out.println("El resultado del area del triangulo es "+ rectangulo.calcular());
+            System.out.println("El resultado del area del rectangulo es "+ rectangulo.calcular());
         }
 
         if(selec==3){
