@@ -1,18 +1,18 @@
 public class Triangulo {
-    private Integer b;
-    private Integer l;
+    private Double b;
+    private Double l;
 
-    private Integer h;
+    private Double h;
 
-    public Triangulo(Integer b, Integer h) {
+    public Triangulo(Double b, Double h) {
         this.b = b;
         this.h = h;
     }
 
 
-    public int calcularTriangulo(int b, int h){
+    public Double calcularTriangulo(Double b, Double h){
         System.out.println("Calculando el area de un Triangulo");
-        int calcular = (b * h) / 2;
+        Double calcular = (b * h) / 2;
         return calcular;
     }
 

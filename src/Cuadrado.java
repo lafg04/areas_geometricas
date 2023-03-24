@@ -1,7 +1,7 @@
 public class Cuadrado {
 
-    public int areaCuadrado(int l, int a){
-        int areaC = l * a;
+    public Double areaCuadrado(Double l, Double a){
+        Double areaC = l * a;
         return areaC;
     }
 }

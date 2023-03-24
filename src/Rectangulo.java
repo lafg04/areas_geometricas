@@ -1,13 +1,13 @@
 public class Rectangulo {
-    private Integer l;
-    private Integer a;
+    private Double l;
+    private Double a;
 
-    public Rectangulo (Integer l, Integer a){
+    public Rectangulo (Double l, Double a){
         this.a = a;
         this.l= l;
     }
 
-    public Integer calcular (){
+    public Double calcular (){
         return  l*a;
     }
 
